@@ -1,0 +1,138 @@
+*, ::before, ::after{
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+header {
+    background-image: url(./assets/hello.jpg);
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .title-logo {
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+header .welcome-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 2em;
+    color: #fff;
+}
+
+header .welcome-text p {
+    text-transform: lowercase;
+    margin: 30px;
+}
+
+header form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+}
+
+input[type='url']:first-child {
+    width: 600px;
+    height: 60px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    border: none;
+}
+
+input:last-child {
+    width: 100px;
+    height: 60px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(224, 95, 9);
+    color: #fff;
+    cursor: pointer;
+}
+
+header .display-shortcut {
+    text-align: center;
+    margin-top: 20px;
+   
+}
+
+#result {
+    border: 1px solid white;
+    color: #fff;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+main {
+    background-color: rgb(230, 224, 224);
+    height: 200px;
+}
+
+section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: 30px;
+    color: rgb(224, 95, 9);
+}
+
+section .images-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20vw 0 20vw;
+}
+
+section .images{
+    cursor: pointer;
+}
+
+footer {
+    text-align: center; 
+    padding-top: 90px;
+    font-size: -10%;
+    font-weight: bold;
+}
+
+footer .footer-img {
+    width: 50px;
+    height: 30px;
+}
+
+footer .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .contact a:first-child {
+    margin-right: 10px;
+    color:rgb(224, 95, 9)
+}
+
+footer .contact p{
+    margin-right: 10px;
+    color:rgb(224, 95, 9)
+}
+
+footer .contact a:last-child{
+    color:rgb(224, 95, 9);
+}
